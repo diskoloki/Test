@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RetailReport Version="2.0">
+	<Report DataPath="Set1">
+		<ActiveReportsLayout Version="3" PrintWidth="9360" DocumentName="ActiveReports Document" ScriptLang="C#">
+			<StyleSheet>
+				<Style Name="Normal" Value="font-family: Arial; font-style: normal; font-variant: inherit; font-weight: normal; font-size: 10pt; font-size-adjust: inherit; font-stretch: inherit; color: rgb(0,0,0); background-repeat: inherit; background-attachment: inherit; opacity: inherit; word-spacing: inherit; letter-spacing: inherit; text-decoration: none; vertical-align: inherit; text-transform: inherit; text-align: inherit; text-indent: inherit; unicode-bidi: inherit; line-height: inherit; white-space: inherit; ddo-char-set: 0; " />
+				<Style Name="Heading1" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 16pt; font-size-adjust: inherit; font-stretch: inherit; " />
+				<Style Name="Heading2" Value="font-family: Times New Roman; font-style: italic; font-variant: inherit; font-weight: bold; font-size: 14pt; font-size-adjust: inherit; font-stretch: inherit; " />
+				<Style Name="Heading3" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 13pt; font-size-adjust: inherit; font-stretch: inherit; " />
+			</StyleSheet>
+			<Sections>
+				<Section Type="ReportHeader" Name="ReportHeader" Height="480" BackColor="16777215" CanShrink="0">
+					<Control Type="AR.Field" Name="TextBox2" Tag="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ActiveReportTag xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xD;&#xA;  &lt;ValueFormula&gt;_dataObject.Count.Value&lt;/ValueFormula&gt;&#xD;&#xA;  &lt;VisibilityFormula /&gt;&#xD;&#xA;  &lt;Comment /&gt;&#xD;&#xA;&lt;/ActiveReportTag&gt;" MOD="4" Left="496.063" Top="70.86614" Width="4889.764" Height="288" Text="Число записей" />
+					<Control Type="AR.Label" Name="Label" Tag="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ActiveReportTag xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xD;&#xA;  &lt;ValueFormula /&gt;&#xD;&#xA;  &lt;VisibilityFormula /&gt;&#xD;&#xA;  &lt;Comment /&gt;&#xD;&#xA;&lt;/ActiveReportTag&gt;" MOD="4" Left="5598.425" Top="70.86614" Width="3614.173" Height="283.4646" Caption="АКБ &quot;Промсвязьбанк&quot; (ЗАО)" />
+				</Section>
+				<Section Type="PageHeader" Name="PageHeader" Height="0" BackColor="16777215" CanShrink="0" />
+				<Section Type="Detail" Name="Detail" Height="810" BackColor="16777215" CanShrink="0">
+					<Control Type="AR.Field" Name="TextBox" DataField="Set1.LastName" Tag="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ActiveReportTag xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xD;&#xA;  &lt;ValueFormula /&gt;&#xD;&#xA;  &lt;VisibilityFormula /&gt;&#xD;&#xA;  &lt;Comment /&gt;&#xD;&#xA;&lt;/ActiveReportTag&gt;" MOD="4" Left="0" Top="0" Width="2055.118" Height="288" Text="LastName" Style="background-color: LightCyan; " />
+					<Control Type="AR.Field" Name="TextBox3" DataField="Set1.FirstName" Tag="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ActiveReportTag xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&#xD;&#xA;  &lt;ValueFormula /&gt;&#xD;&#xA;  &lt;VisibilityFormula /&gt;&#xD;&#xA;  &lt;Comment /&gt;&#xD;&#xA;&lt;/ActiveReportTag&gt;" MOD="4" Left="2125.984" Top="0" Width="1842.52" Height="288" Text="FirstName" Style="background-color: LightCyan; " />
+					<Control Type="AR.Field" Name="TextBox4" DataField="Set1.MiddleName" Tag="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ActiveReportTag xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&#xD;&#xA;  &lt;ValueFormula /&gt;&#xD;&#xA;  &lt;VisibilityFormula /&gt;&#xD;&#xA;  &lt;Comment /&gt;&#xD;&#xA;&lt;/ActiveReportTag&gt;" MOD="4" Left="4034.174" Top="0" Width="2055.118" Height="288" Text="MiddleName" Style="background-color: LightCyan; " />
+					<Control Type="AR.Subreport" Name="SubReport0" MOD="4" Left="0" Top="354.3307" Width="8787.401" Height="354.3307" ReportName="SubReport0" />
+				</Section>
+				<Section Type="PageFooter" Name="PageFooter" Height="360" BackColor="16777215" CanShrink="0">
+					<Control Type="AR.Field" Name="Page" Tag="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ActiveReportTag xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xD;&#xA;  &lt;ValueFormula /&gt;&#xD;&#xA;  &lt;VisibilityFormula /&gt;&#xD;&#xA;  &lt;Comment /&gt;&#xD;&#xA;&lt;/ActiveReportTag&gt;" MOD="4" Left="7440.945" Top="0" Width="708.6614" Height="212.5984" Text="Page" SummaryType="4" SummaryRunning="2" />
+				</Section>
+				<Section Type="ReportFooter" Name="ReportFooter" Height="1620" BackColor="16777215" CanShrink="0">
+					<Control Type="AR.Subreport" Name="SubReport1" Tag="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ActiveReportTag xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&#xD;&#xA;  &lt;ValueFormula /&gt;&#xD;&#xA;  &lt;VisibilityFormula /&gt;&#xD;&#xA;  &lt;Comment /&gt;&#xD;&#xA;&lt;/ActiveReportTag&gt;" MOD="4" Left="212.5984" Top="70.86614" Width="8858.269" Height="354.3307" ReportName="SubReport1" />
+					<Control Type="AR.RTF" Name="RichTextBox" Tag="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ActiveReportTag xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xD;&#xA;  &lt;ValueFormula /&gt;&#xD;&#xA;  &lt;VisibilityFormula /&gt;&#xD;&#xA;  &lt;Comment /&gt;&#xD;&#xA;&lt;/ActiveReportTag&gt;" MOD="4" Left="496.063" Top="637.7953" Width="7582.676" Height="779.5275" AutoReplaceFields="1" BackStyle="0">
+						<Data>
+							<![CDATA[00000000000000007B5C727466315C616E73695C616E7369637067313235325C64656666307B5C666F6E7474626C7B5C66305C66726F6D616E5C66707271325C66636861727365743230347B5C2A5C666E616D652054696D6573204E657720526F6D616E3B7D54696D6573204E657720526F6D616E204359523B7D7B5C66315C666E696C5C6663686172736574323034204D6963726F736F66742053616E732053657269663B7D7D0D0A7B5C2A5C67656E657261746F7220526963686564323020352E34302E31312E323231303B7D5C766965776B696E64345C7563315C706172645C6C616E67313034395C66305C667332345C2764645C2766325C276565205C2766325C2765355C2766315C276632205C625C2765645C2765305C2765375C2765325C2765305C2765645C2765385C2766665C623020205C2765315C2765305C2765645C2765615C2765303A205C695C2763305C2763615C27633120225C2763665C2766305C2765655C2765635C2766315C2765325C2766665C2765375C2766635C2765315C2765305C2765645C2765612220285C2763375C2763305C276365295C6930202C205C2765325C2765655C276632205C2766325C2765305C2765615C2765385C276535205C2765345C2765355C2765625C2765305C2738355C7061720D0A5C66315C667331375C7061720D0A7D0D0A]]>
+						</Data>
+					</Control>
+				</Section>
+			</Sections>
+			<PageSettings />
+		</ActiveReportsLayout>
+		<SubReports>
+			<Report Name="SubReport0" Repeating="1" DataPath="Set3">
+				<ActiveReportsLayout Version="3" PrintWidth="9360" DocumentName="ActiveReports Document" ScriptLang="C#">
+					<StyleSheet>
+						<Style Name="Normal" Value="font-family: Arial; font-style: normal; font-variant: inherit; font-weight: normal; font-size: 10pt; font-size-adjust: inherit; font-stretch: inherit; color: rgb(0,0,0); background-repeat: inherit; background-attachment: inherit; opacity: inherit; word-spacing: inherit; letter-spacing: inherit; text-decoration: none; vertical-align: inherit; text-transform: inherit; text-align: inherit; text-indent: inherit; unicode-bidi: inherit; line-height: inherit; white-space: inherit; ddo-char-set: 0; " />
+						<Style Name="Heading1" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 16pt; font-size-adjust: inherit; font-stretch: inherit; " />
+						<Style Name="Heading2" Value="font-family: Times New Roman; font-style: italic; font-variant: inherit; font-weight: bold; font-size: 14pt; font-size-adjust: inherit; font-stretch: inherit; " />
+						<Style Name="Heading3" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 13pt; font-size-adjust: inherit; font-stretch: inherit; " />
+					</StyleSheet>
+					<Sections>
+						<Section Type="PageHeader" Name="PageHeader" Height="0" BackColor="16777215" CanShrink="0" />
+						<Section Type="Detail" Name="Detail" Height="330" BackColor="16777215" CanShrink="0">
+							<Control Type="AR.Field" Name="TextBox" DataField="Set3.ContractID" Tag="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ActiveReportTag xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&#xD;&#xA;  &lt;ValueFormula /&gt;&#xD;&#xA;  &lt;VisibilityFormula /&gt;&#xD;&#xA;  &lt;Comment /&gt;&#xD;&#xA;&lt;/ActiveReportTag&gt;" MOD="4" Left="354.3307" Top="0" Width="1440" Height="288" Text="ContractID" Style="background-color: MistyRose; " />
+							<Control Type="AR.Field" Name="TextBox1" DataField="Set3.Name" Tag="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ActiveReportTag xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&#xD;&#xA;  &lt;ValueFormula /&gt;&#xD;&#xA;  &lt;VisibilityFormula /&gt;&#xD;&#xA;  &lt;Comment /&gt;&#xD;&#xA;&lt;/ActiveReportTag&gt;" MOD="4" Left="1913.386" Top="0" Width="7228.348" Height="288" Text="Name" Style="background-color: MistyRose; " />
+						</Section>
+						<Section Type="PageFooter" Name="PageFooter" Height="0" BackColor="16777215" CanShrink="0" />
+					</Sections>
+					<PageSettings />
+				</ActiveReportsLayout>
+			</Report>
+			<Report Name="SubReport1" Repeating="0" DataPath="Set2">
+				<ActiveReportsLayout Version="3" PrintWidth="9360" DocumentName="ActiveReports Document" ScriptLang="C#" BuildProviderLanguage="C#">
+					<StyleSheet>
+						<Style Name="Normal" Value="font-family: Arial; font-style: normal; font-variant: inherit; font-weight: normal; font-size: 10pt; font-size-adjust: inherit; font-stretch: inherit; color: rgb(0,0,0); background-repeat: inherit; background-attachment: inherit; opacity: inherit; word-spacing: inherit; letter-spacing: inherit; text-decoration: none; vertical-align: inherit; text-transform: inherit; text-align: inherit; text-indent: inherit; unicode-bidi: inherit; line-height: inherit; white-space: inherit; ddo-char-set: 0; " />
+						<Style Name="Heading1" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 16pt; font-size-adjust: inherit; font-stretch: inherit; " />
+						<Style Name="Heading2" Value="font-family: Times New Roman; font-style: italic; font-variant: inherit; font-weight: bold; font-size: 14pt; font-size-adjust: inherit; font-stretch: inherit; " />
+						<Style Name="Heading3" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 13pt; font-size-adjust: inherit; font-stretch: inherit; " />
+					</StyleSheet>
+					<Sections>
+						<Section Type="Detail" Name="Detail" Height="480" BackColor="16777215" CanShrink="0">
+							<Control Type="AR.Field" Name="TextBox" DataField="Set2.UserID" Tag="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ActiveReportTag xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&#xD;&#xA;  &lt;ValueFormula /&gt;&#xD;&#xA;  &lt;VisibilityFormula /&gt;&#xD;&#xA;  &lt;Comment /&gt;&#xD;&#xA;&lt;/ActiveReportTag&gt;" MOD="4" Left="425.1969" Top="70.86614" Width="1440" Height="288" Text="UserID" Style="background-color: Lavender; " />
+							<Control Type="AR.Field" Name="TextBox1" DataField="Set2.Name" Tag="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ActiveReportTag xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&#xD;&#xA;  &lt;ValueFormula /&gt;&#xD;&#xA;  &lt;VisibilityFormula /&gt;&#xD;&#xA;  &lt;Comment /&gt;&#xD;&#xA;&lt;/ActiveReportTag&gt;" MOD="4" Left="1984.252" Top="70.86614" Width="7086.614" Height="288" Text="Name" Style="background-color: Lavender; " />
+						</Section>
+					</Sections>
+					<PageSettings />
+				</ActiveReportsLayout>
+			</Report>
+		</SubReports>
+		<Script>
+			<PageEnd>//Page.Value = Page.Value + 1;</PageEnd>
+		</Script>
+	</Report>
+</RetailReport>
